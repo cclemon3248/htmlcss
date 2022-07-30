@@ -1,0 +1,331 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+}
+
+.header1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 36px;
+  /* position: absolute; */
+  align-items: center;
+}
+
+.header1 img {
+  width: 185px;
+  margin: 0;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.header1 ul {
+  list-style: none;
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.header1 li {
+  margin-left: 40px;
+  text-align: center;
+}
+
+.header1 p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.font1 {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.font2 {
+  color: black;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.contant {
+  background-color: #f79214;
+  padding: 15px 20px;
+  border-radius: 38px;
+  color: white;
+  font-size: 12px;
+  line-height: 36px;
+}
+
+.contant:hover {
+  opacity: 0.8;
+}
+
+.main1 {
+  padding-bottom: 28px;
+  background-image: url("https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg");
+  background-size: cover;
+}
+
+.main11 {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.image {
+  display: none;
+}
+
+.main111 {
+  width: fit-content;
+  /* margin-left: 50px;
+  margin-bottom: 70px; */
+}
+
+.main111 h2 {
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+.main112 {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  align-items: center;
+}
+
+.main112 p {
+  font-size: 12px;
+  color: #a2a2a4;
+}
+
+.main1113 {
+  margin-top: 40px;
+}
+
+.font3 {
+  color: #a2a2a4;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.main2 {
+  padding: 44px 0;
+  background-color: #f79214;
+}
+
+.main21 {
+  margin: 0 auto;
+}
+
+.main211 h2 {
+  font-size: 38px;
+  letter-spacing: .1em;
+  margin-bottom: 10px;
+}
+
+.main211 p {
+  margin-bottom: 16px;
+}
+
+.font4 {
+  font-weight: bold;
+}
+
+.font5 {
+  font-size: 18px;
+  color: white;
+}
+
+.fixed-footer {
+  width: 367px;
+  position: fixed;
+  bottom: 28px;
+  right: 4px;
+  z-index: 1;
+}
+
+.hamberger {
+  display: none;
+  font-size: 35px;
+}
+
+@media (min-width: 1081px ) {
+  body {
+    position: relative;
+  }
+
+  header {
+    position: absolute;
+  }
+}
+@media (min-width: 768px ) {
+  .main1 {
+    background-position: center;
+    padding-top: 100px;
+    padding-top: 60px;
+  }
+  
+  .main111 {
+    margin-left: 50px;
+    margin-bottom: 70px;
+  }
+
+  .button1 {
+    background-color:#f79214;
+    color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 38px;
+    margin-right: 10px;
+  }
+  
+  .button2 {
+    background-color:#ffffff;
+    color: #000000;
+    border: 1px solid #e0e0e0;
+    padding: 20px 25px;
+    border-radius: 38px;
+    margin-right: 10px;
+  }
+
+  .main21 {
+    max-width: 1140px;
+    display: flex;
+  }
+
+  .video {
+    width: 520px;
+    margin-bottom: 0;
+    margin-left: 50px;
+  }
+
+  .main211 {
+    margin-left: 32px;
+    margin-right: 50px;
+    color: white;
+  }
+}
+
+@media (max-width: 1080px ) {
+  .header1 {
+    margin: 0 36px;
+  }
+
+  .header1 ul {
+    display: none;
+  }
+
+  .hamberger {
+    display: block;
+    padding: 0;
+  }
+
+  .logo {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 767px ) {
+  .header1 {
+    margin: 0 20px;
+  }
+
+  .header1 img {
+    width: 148.5px;
+  }
+
+  .hamberger {
+    padding: 0;
+  }
+  .image {
+    display: block;
+  }
+
+  .image img {
+    width: 100%;
+  }
+
+  .image2 {
+    width: 27.5%;
+  }
+
+  .image3 {
+    width: 40%;
+  }
+  
+  .main111 {
+    width: 90%;
+    margin-top: -45vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main111 h2 {
+    font-size: 25px;
+  }
+
+  .main112 {
+    margin-top: 50px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .main1113 {
+    width: 100%;
+    height: 64px;
+    background-color: #f79214;
+    text-align: center;
+    border-radius: 38px;
+  }
+
+  .button1 {
+    line-height: 64px;
+    color: white;
+    font-size: 14px;
+  }
+
+  .button1:hover {
+    opacity: 1;
+  }
+
+  .button2 {
+    display: none;
+  }
+
+  .main112 {
+    margin-top: 10px;
+  }
+
+  .main21 {
+    padding: 0 20px;
+  }
+
+  .video {
+    width: 100%;
+  }
+
+  .main211 h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: normal;
+  }
+  
+  .main211 p {
+    color: white;
+    margin-bottom: 16px;
+  }
+}
